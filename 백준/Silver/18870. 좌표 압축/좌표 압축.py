@@ -5,7 +5,6 @@ def compress_coordinates(coords):
     compressed = [rank[x] for x in coords]
     return compressed
 
-# 입력 받기
 n = int(input())
 coords = list(map(int, input().split()))
 
